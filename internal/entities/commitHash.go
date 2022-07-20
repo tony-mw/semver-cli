@@ -24,5 +24,5 @@ func (e *CommitHash) Set(value string) error {
 }
 
 func (e *CommitHash) Type() string {
-	return ("CommitHash")
+	return "CommitHash"
 }
