@@ -74,5 +74,5 @@ func (i *InitCommand) Init() {
 	viper.SetDefault("alpha", 0)
 	viper.SetDefault("beta", 0)
 	viper.SetDefault("rc", 0)
-	viper.SetDefault("release", "v1.0.0")
+	viper.SetDefault("release", "v0.0.0")
 }
